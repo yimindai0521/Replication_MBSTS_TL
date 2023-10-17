@@ -74,7 +74,6 @@ lambda <- 0
 
 # Start training
 # for loop for each time period
-set.seed(12644)
 for (k in 1:length(time_begin)) {
   Ytrain <- Y[time_begin[k]:time_end[k] + lag, ] # Training outcome, the lag effect will be considered
   Xtrain <- X[time_begin[k]:time_end[k], ] # Training covariate

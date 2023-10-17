@@ -64,7 +64,7 @@ for (i in 1:length(group.state)) {
   Y <- Y * 1e-3
 
   # reshape covariate for mbsts model
-  X <- scale(X_init[1:length_X, ]) # Standardized covariate X
+  X <- X_init[1:length_X, ]
   array.number <- rep(NULL, number_state) # number of covariate in mbsts model
   array.number[1] <- ncol(X_init) # Initiazing array.number[1] in the above setting
   for (j in 1:(number_state - 1)) {
@@ -83,7 +83,6 @@ for (i in 1:length(group.state)) {
     }
   }
   X <- as.matrix(X)
-  X <- scale(X)
 
 
   # for loop for each time period
