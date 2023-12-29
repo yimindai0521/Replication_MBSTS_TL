@@ -1,6 +1,15 @@
 ## Replication_MBSTS_TL
 
-This is the replication code for Paper Statistical Machine Learning Meets High-Dimensional Spatiotemporal Challenges - A Case Study of COVID-19 Modeling.
+This is the replication code for Paper Statistical Machine Learning Meets High-Dimensional Spatiotemporal Challenges - A Case Study of COVID-19 Modeling(https://arxiv.org/pdf/2312.14161.pdf). 
+
+To cite this paper:
+
+@article{lin2023statistical,
+  title={Statistical Machine Learning Meets High-Dimensional Spatiotemporal Challenges--A Case Study of COVID-19 Modeling},
+  author={Lin, Binbin and Dai, Yimin and Zou, Lei and Ning, Ning},
+  journal={arXiv preprint arXiv:2312.14161},
+  year={2023}
+}
 
 ## File Description
 
@@ -39,3 +48,5 @@ Here we provide more details of mbsts-tl method in the paper.
 -   'beta': beta is a m\*dimension matrix where dimension is the dimension of covariate for all time series.
 
 ## Reference
+
+Lin, Binbin, et al. "Statistical Machine Learning Meets High-Dimensional Spatiotemporal Challenges--A Case Study of COVID-19 Modeling." arXiv preprint arXiv:2312.14161 (2023).
